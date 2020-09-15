@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewData["Title"] = "AddProduct";
+}
+
+<h1>AddProduct</h1>
+
+<form method="POST" action="/Admin/AddProduct">
+    <table>
+        <tr>
+            <td> Product Name:</td>
+            <td><input type="text" placeholder="Product Name" name="Name" /></td>
+        </tr>
+        <tr>
+            <td>Price:</td>
+            <td><input type="number" placeholder="Price" name="Price" /></td>
+        </tr>
+        <tr>
+            <td> Desciption:</td>
+            <td><input type="text" placeholder="Description" name="Description" /></td>
+        </tr>
+        <tr>
+            <td> Category:</td>
+            <td> <input type="text" placeholder="Category" name="Category" /> </td>
+        </tr>
+
+        <tr> <td><input type="submit" /></td>   </tr>
+
+
+    </table>
+</form>

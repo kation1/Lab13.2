@@ -1,0 +1,38 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "UpdateProduct";
+}
+
+<h1>UpdateProduct</h1>
+
+
+
+<form method="POST" action="/Admin/AddProduct">
+    <table>
+        <tr>
+            <td> Id Number:</td>
+            <td><input type="number" readonly placeholder=@Model.id name="id" /></td>
+        </tr>
+        <tr>
+            <td> Product Name:</td>
+            <td><input type="text" placeholder=@Model.Name name="Name" /></td>
+        </tr>
+        <tr>
+            <td>Price:</td>
+            <td><input type="number" placeholder=@Model.Price name="Price" /></td>
+        </tr>
+        <tr>
+            <td> Desciption:</td>
+            <td><input type="text" placeholder=@Model.Description name="Description" /></td>
+        </tr>
+        <tr>
+            <td> Category:</td>
+            <td> <input type="text" placeholder=@Model.Category name="Category" /> </td>
+        </tr>
+
+        <tr> <td><input type="submit" /></td>   </tr>
+
+
+    </table>
+</form>
+

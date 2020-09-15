@@ -1,0 +1,13 @@
+﻿@model Product
+
+    ViewData["Title"] = "DeleteProduct";
+}
+
+<h1>DeleteProduct</h1>
+
+@($"Are you sure you want to delete?")
+
+
+<a class="nav-item" asp-action="DeleteProduct" asp-controller="Admin" asp-route-id=@Model.id>
+    Delete
+</a>
