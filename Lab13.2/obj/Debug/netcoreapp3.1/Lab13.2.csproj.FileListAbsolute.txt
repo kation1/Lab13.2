@@ -2,7 +2,6 @@ C:\devbuild\Week11\Lab13.2\Lab13.2\bin\Debug\netcoreapp3.1\appsettings.Developme
 C:\devbuild\Week11\Lab13.2\Lab13.2\bin\Debug\netcoreapp3.1\appsettings.json
 C:\devbuild\Week11\Lab13.2\Lab13.2\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\devbuild\Week11\Lab13.2\Lab13.2\bin\Debug\netcoreapp3.1\Lab13.2.exe
-C:\devbuild\Week11\Lab13.2\Lab13.2\obj\Debug\netcoreapp3.1\Lab13.2.csprojAssemblyReference.cache
 C:\devbuild\Week11\Lab13.2\Lab13.2\obj\Debug\netcoreapp3.1\Lab13.2.AssemblyInfoInputs.cache
 C:\devbuild\Week11\Lab13.2\Lab13.2\obj\Debug\netcoreapp3.1\Lab13.2.AssemblyInfo.cs
 C:\devbuild\Week11\Lab13.2\Lab13.2\obj\Debug\netcoreapp3.1\Lab13.2.RazorAssemblyInfo.cache

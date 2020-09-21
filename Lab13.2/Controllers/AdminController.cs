@@ -65,6 +65,7 @@ namespace Lab13._2.Controllers
         {
 
             DAL.UpdateProduct(id,name, price, description, category);
+
             return RedirectToAction("Index", "Admin");
         }
 

@@ -7,27 +7,27 @@
 
 
 
-<form method="POST" action="/Admin/AddProduct">
+<form method="POST" action="/Admin/UpdateProduct">
     <table>
         <tr>
             <td> Id Number:</td>
-            <td><input type="number" readonly placeholder=@Model.id name="id" /></td>
+            <td><input type="number" readonly value=@Model.id name="id" /></td>
         </tr>
         <tr>
             <td> Product Name:</td>
-            <td><input type="text" placeholder=@Model.Name name="Name" /></td>
+            <td><input type="text" value=@Model.Name name="Name" /></td>
         </tr>
         <tr>
             <td>Price:</td>
-            <td><input type="number" placeholder=@Model.Price name="Price" /></td>
+            <td><input type="number" value=@Model.Price name="Price" /></td>
         </tr>
         <tr>
             <td> Desciption:</td>
-            <td><input type="text" placeholder=@Model.Description name="Description" /></td>
+            <td><input type="text" value=@Model.Description name="Description" /></td>
         </tr>
         <tr>
             <td> Category:</td>
-            <td> <input type="text" placeholder=@Model.Category name="Category" /> </td>
+            <td> <input type="text" value=@Model.Category name="Category" /> </td>
         </tr>
 
         <tr> <td><input type="submit" /></td>   </tr>

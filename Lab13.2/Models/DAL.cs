@@ -51,14 +51,15 @@ namespace Lab13._2.Models
             return prod;
         }
 
-        public static void UpdateProduct(long _id, string name, decimal price, string description, string category)
+        public static void UpdateProduct(long id, string name, decimal price, string description, string category)
         {
             IDbConnection db = new SqlConnection("Server=6PP7Q13\\SQLEXPRESS;Database=CoffeeShop;user id=asdf;password=asdf;");
             //Product prod = new Product { id = _id, Name =name, Price = price, Description = description, Category =category };
-           // DeleteProduct(_id);
-           // _id = db.Insert(prod);
-
-              Product prod = (Product)db.Query("UPDATE [dbo].[Product] SET [id]=_id, [Name] = name,[Price] = price,[Description] = description,[Category] = category WHERE id = Product.id");
+            // DeleteProduct(_id);
+            // _id = db.Insert(prod);
+            Product prod = new Product { id = id, Name = name, Price = price, Description = description, Category = category };
+            db.Update(prod);
+              //Product prod = (Product)db.Query("UPDATE [dbo].[Product] SET [id]=_id, [Name] = name,[Price] = price,[Description] = description,[Category] = category WHERE id = Product.id");
 
            
         }
